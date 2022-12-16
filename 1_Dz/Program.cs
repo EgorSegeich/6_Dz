@@ -13,8 +13,7 @@ for (int i = 0; M > i; i++)
 {
     Console.WriteLine("введите число");
     int X = Convert.ToInt32(Console.ReadLine());
-    if(X>0)
-    sum = sum + 1;
+    if(X>0) sum = sum + 1;
 }
 
 Console.WriteLine("кол-во чисел больше нуля = " + sum);
